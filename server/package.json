@@ -1,0 +1,33 @@
+{
+  "name": "lakeweather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanling/lakeweather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanling/lakeweather/issues"
+  },
+  "homepage": "https://github.com/ethanling/lakeweather#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "create-react-app": "^3.4.1",
+    "cron": "^1.8.2",
+    "db": "^3.1.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "npm": "^6.14.8"
+  }
+}
