@@ -4,9 +4,9 @@ const db = require('./db')
 
 const formatWind = (blurb) => {
 	const splitText = blurb.split('.');
-	const removeWaves = splitText.filter(item => item.length > 0 && item.includes('winds'))
-	const toString = `${removeWaves[0]}`
-	const windStr = toString.split(' ')
+	const removeWaves = splitText.filter(item => item.length > 0 && item.includes('winds'));
+	const toString = `${removeWaves[0]}`;
+	const windStr = toString.split(' ');
 	const wind = { 
 		direction: windStr[1],
 		speed: {
@@ -20,14 +20,14 @@ const formatWind = (blurb) => {
 
 const formatWaves = (blurb) => {
 	const splitText = blurb.split('.');
-	const removeWind = splitText.filter(item => item.length > 0 && item.includes('Waves'))
-	const toString = `${removeWind[0]}`
-	const waveStr = toString.split(' ')
-	console.log(waveStr)
+	const removeWind = splitText.filter(item => item.length > 0 && item.includes('Waves'));
+	const toString = `${removeWind[0]}`;
+	const waveStr = toString.split(' ');
+	const highOrLess = waveStr[4] === 'or' ? null : waveStr[4];
 	const waves = { 
 		height: {
 			low: waveStr[2], 
-			high: waveStr[4],
+			high: highOrLess,
 		}
 	}
 	
