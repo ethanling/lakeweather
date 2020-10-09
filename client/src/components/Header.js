@@ -17,7 +17,7 @@ const StyledLogo = styled.h1`
 
 const Header = () => (
 	<StyledHeader>
-		<StyledLogo>Lake Erie</StyledLogo>	
+		<StyledLogo>Lake Erie Conditions</StyledLogo>	
 	</StyledHeader>
 )
 

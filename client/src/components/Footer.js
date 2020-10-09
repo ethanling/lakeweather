@@ -6,6 +6,8 @@ const StyledFooter = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
+	font-size: 10px;
 `
 
 const Footer = () => (
