@@ -80,7 +80,6 @@ const formatText = (titles, text) => {
 	return data;
 }
 
-
 async function getHTML(url) {
 	const { data: html } = await axios.get(url)
 	return html;
@@ -99,7 +98,7 @@ async function setPageData(html) {
 
 	const txtArr = content.text().split('\n');
 	const format = txtArr.filter(line => line.length > 0);
-	const data = formatText(keys, format)
+	const data = formatText(keys, format);
 
 	return data;
 }
@@ -123,6 +122,7 @@ async function runCron() {
 			data: data[0]
 		})
 		.write()
+
 	console.log('Cron job complete.')
 }
 
