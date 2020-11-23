@@ -2,12 +2,43 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const db = require('./db')
 
+const formatWind = (blurb) => {
+	const splitText = blurb.split('.');
+	const removeWaves = splitText.filter(item => item.length > 0 && item.includes('winds'));
+	const toString = `${removeWaves[0]}`;
+	const windStr = toString.split(' ');
+	const wind = { 
+		direction: windStr[1],
+		speed: {
+			low: windStr[3], 
+			high: windStr[5]
+		}
+	}
+	
+	return wind;
+}
+
+const formatWaves = (blurb) => {
+	const splitText = blurb.split('.');
+	const removeWind = splitText.filter(item => item.length > 0 && item.includes('Waves'));
+	const toString = `${removeWind[0]}`;
+	const waveStr = toString.split(' ');
+	const highOrLess = waveStr[4] === 'or' ? null : waveStr[4];
+	const waves = { 
+		height: {
+			low: waveStr[2], 
+			high: highOrLess,
+		}
+	}
+	
+	return waves;
+}
 
 const formatText = (titles, text) => {
 	let toCombine = [];
 	let valuesArr = [];
 	let tmpString = '';
-	// Determine where titles fall in text array
+
 	for (let i = 0; i < text.length; i++) {
 		for (let j = 0; j < titles.length; j++) {
 			if (text[i] === titles[j]) {
@@ -40,13 +71,14 @@ const formatText = (titles, text) => {
 	for (let z = 0; z < titles.length - 1; z++) {
 		data.push({
 			time: titles[z],
-			blurb: vals[z]
+			blurb: vals[z],
+			wind: formatWind(vals[z]),
+			waves: formatWaves(vals[z]),
 		})
 	}
 
 	return data;
 }
-
 
 async function getHTML(url) {
 	const { data: html } = await axios.get(url)
@@ -67,7 +99,7 @@ async function setPageData(html) {
 
 	const txtArr = content.text().split('\n');
 	const format = txtArr.filter(line => line.length > 0);
-	const data = formatText(keys, format)
+	const data = formatText(keys, format);
 
 	return data;
 }
@@ -91,7 +123,8 @@ async function runCron() {
 			data: data[0]
 		})
 		.write()
-	console.log('Complete.')
+
+	console.log('Cron job complete.')
 }
 
 module.exports = {

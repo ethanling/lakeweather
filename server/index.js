@@ -19,7 +19,8 @@ app.get('/scrape', async (req, res, next) => {
  
 app.get('/data', async (req, res, next) => {
 	const data = db.value();
-	res.json(data)
+	const currentWeather = data.forecasts[data.forecasts.length - 1]
+	res.json(currentWeather)
 })
 
 app.listen(PORT, () => {
