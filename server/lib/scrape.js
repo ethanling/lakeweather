@@ -50,6 +50,7 @@ const formatText = (titles, text) => {
 
 async function getHTML(url) {
 	const { data: html } = await axios.get(url)
+
 	return html;
 }
 
