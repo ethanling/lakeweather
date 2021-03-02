@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { TiWeatherWindyCloudy, TiWaves } from "react-icons/ti";
-import { useDate } from "../hooks/useDate";
+import { useDate } from '../hooks/useDate'
 
 const StyledCardContainer = styled.div`
     width: 100%;
@@ -11,18 +11,24 @@ const StyledCardContainer = styled.div`
 
     .card {
         margin: 2rem 0 2rem 0;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 8px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2)
     }
 
     .title {
+        display: flex;
+        align-items: center;
         margin: 0 0 1rem 0;
-        padding: 0 0 1rem 0;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         font-size: 1.6rem;
     }
 
     .content {
         display: flex;
         flex-direction: row;
+        padding: 1rem;
     }
 
     .container {
@@ -38,12 +44,16 @@ const StyledCardContainer = styled.div`
         margin-left: 0.5rem;
         font-weight: 600;
     }
+
+    .timestamp {
+        display: flex;
+        justify-content: center;
+    }
 `;
 
 const Forecast = (weather) => {
     console.log(weather.bundle);
-
-    const lastRefreshed = useDate(weather.bundle.date);
+    const lastUpdated = useDate(weather.bundle.date)
 
     return (
         <StyledCardContainer>
@@ -75,6 +85,7 @@ const Forecast = (weather) => {
                     </div>
                 </div>
             ))}
+            <div className="timestamp">{`Last updated at ${lastUpdated}`}</div>
         </StyledCardContainer>
     );
 };

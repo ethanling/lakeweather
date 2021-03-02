@@ -5,15 +5,19 @@ const StyledFooter = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
-	font-size: 10px;
+	font-size: 1rem;
 	position: absolute;
 	bottom: 20px;
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
 `
 
 const Footer = () => (
 	<StyledFooter>
-		&#169; Copyright 2020. Ethan Ling. 
+        <p>&#169; Copyright 2020. Built with ❤️  by <a href="https://ethanling.com">Ethan Ling</a>.</p>
 	</StyledFooter>	
 )
 
