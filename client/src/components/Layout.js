@@ -5,13 +5,14 @@ import Content from './Content'
 import Footer from './Footer'
 
 const StyledWrapper = styled.div`
-	background: linear-gradient(180deg, #1CB5E0 0%, #000851 100%);
+    background: #f3f3f3;
+    color: #17151c;
 	height: 100%;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+    padding: 1rem 0 1rem 0;
 `
 
 const Layout = ({ children }) => ( 

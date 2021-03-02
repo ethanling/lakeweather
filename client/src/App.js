@@ -6,7 +6,7 @@ function App() {
 	const [weather, setWeather] = useState(null);
 
 	async function fetchWeatherData() {
-		const data = await fetch('http://134.122.112.182:3001/data')
+		const data = await fetch('http://localhost:3333/data')
 		setWeather(await data.json())
 	}	
 

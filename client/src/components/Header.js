@@ -1,24 +1,40 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import LakeErie from "../icons/Lake_Erie.svg";
+import styled from "styled-components";
 
-const StyledHeader = styled.div`
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
-	max-height: 20vh;
-`
+const StyledWrapper = styled.div`
+    display: inline-block;
+    width: 100%;
+    background-image: ${`url(${LakeErie})`};
+    background-repeat: no-repeat;
+    background-position: center;
+`;
 
-const StyledLogo = styled.h1`
-	color: white;
-	font-size: 5em;
-`
+const StyledLogo = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+    .headline {
+        font-size: 5rem;
+        margin: 0;
+    }
+
+    .byline {
+        font-size: 3rem;
+        margin: 0;
+    }
+`;
 
 const Header = () => (
-	<StyledHeader>
-		<StyledLogo>Lake Erie Conditions</StyledLogo>	
-	</StyledHeader>
-)
+    <StyledWrapper>
+        <StyledLogo>
+            <h1 className="headline">Lake Erie</h1>
+            <h2 className="byline">Conditions</h2>
+        </StyledLogo>
+    </StyledWrapper>
+);
 
-export default Header
+export default Header;

@@ -1,67 +1,82 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
+import { TiWeatherWindyCloudy, TiWaves } from "react-icons/ti";
+import { useDate } from "../hooks/useDate";
 
-const StyledWrapper = styled.div`
-	width: 100%;
-	display: flex;	
-	justify-content: center;
-	color: white;
-	flex-direction: column;
-`
+const StyledCardContainer = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
-const StyledHeading = styled.h3`
-	color: white;
-	font-size: 1em;
-`
+    .card {
+        margin: 2rem 0 2rem 0;
+    }
 
-const StyledCard = styled.div`
-	background: rgba(255, 255, 255, .3);
-	border-radius: 8px;
-	margin: 10px;
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	padding: 20px;
-`
+    .title {
+        margin: 0 0 1rem 0;
+        padding: 0 0 1rem 0;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+        font-size: 1.6rem;
+    }
 
-const StyledCardHeading = styled.h1`
-	color: #0a0a0a;
-	font-size: 1.2em;
-	flex: 2;
-	display: flex;
-	align-items: center;
-	margin-right: 20px;
-`
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
 
-const StyledContent = styled.div`
-	flex: 7;	
-`
+    .container {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+        font-weight: 600;
+    }
+`;
 
 const Forecast = (weather) => {
-	console.log(weather.bundle)	
+    console.log(weather.bundle);
 
-	const formatDate = (date) => {
-		const newDate = new Date(date);
-		return newDate.toLocaleString()
-	}
+    const lastRefreshed = useDate(weather.bundle.date);
 
-	return (
-		<>
-			<StyledWrapper>
-				{ weather.bundle.data.map((item, i) => (
-					<StyledCard key={i}>
-						<StyledCardHeading>{item.time}</StyledCardHeading>
-						<StyledContent>
-							<p>{item.blurb}</p>							
-						</StyledContent>
-					</StyledCard>
-				)) }
-			</StyledWrapper>
-			<StyledHeading>Updated: {formatDate(weather.bundle.date)}</StyledHeading>
-		</>
-	)
-}
+    return (
+        <StyledCardContainer>
+            {weather.bundle.data.map((item, i) => (
+                <div className="card" key={i}>
+                    <h1 className="title">{item.time}</h1>
+                    <div className="content">
+                        <div className="container">
+                            <TiWeatherWindyCloudy size="4em" />
+                            <div className="text-container">
+                                <span>
+                                    {`Winds from ${item.wind.speed.low} to
+                                    ${item.wind.speed.high} knots to the ${
+                                        item.wind.direction
+                                    }.`}
+                                </span>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <TiWaves size="4em" />
+                            <div className="text-container">
+                                <span>
+                                    {`Waves 
+                                    ${item.waves.height.low} to
+                                    ${item.waves.height.high} feet.`}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </StyledCardContainer>
+    );
+};
 
-export default Forecast
+export default Forecast;
