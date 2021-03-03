@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { TiWeatherWindyCloudy, TiWaves } from "react-icons/ti";
+import { FaWind, FaWater } from "react-icons/fa";
 import { useDate } from "../hooks/useDate";
+import DirectionArrows from "./DirectionArrows";
 
 const StyledCardContainer = styled.div`
     width: 100%;
@@ -26,7 +27,7 @@ const StyledCardContainer = styled.div`
 
     .content {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 1rem;
         color: white;
         margin: 0;
@@ -34,27 +35,41 @@ const StyledCardContainer = styled.div`
 
     .container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         padding: 1rem;
     }
 
     .text-container {
-        margin-left: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
         font-size: 2rem;
-        font-weight: 300;
-        flex: 1;
+        font-weight: 400;
     }
 
     .alert {
         background: rgba(255, 0, 0, 0.5);
         border-radius: 1rem;
-        transition: all .2s ease; 
+        transition: all 0.2s ease;
     }
 
     .alert:hover {
-        background: rgba(255, 0, 0, .8);
+        background: rgba(255, 0, 0, 0.8);
     }
+
+    .alert-message {
+        opacity: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
 
     .timestamp {
         display: flex;
@@ -62,12 +77,9 @@ const StyledCardContainer = styled.div`
     }
 `;
 
-const Forecast = ({ bundle }) => {
+const Forecast = ({ bundle, iconSize, maxWaveHeight }) => {
     console.log(bundle);
     const lastUpdated = useDate(bundle.date);
-
-    const iconSize = "2rem";
-    const maxWaveHeight = 3; // in feet
 
     return (
         <StyledCardContainer>
@@ -76,20 +88,31 @@ const Forecast = ({ bundle }) => {
                     <h1 className="title">{item.time}</h1>
                     <div className="content">
                         <div className="container">
-                            <TiWeatherWindyCloudy size={iconSize} />
+                            <FaWind size={iconSize} />
                             <span className="text-container">
-                                {`Winds from ${item.wind.speed.low} to
-                                    ${
-                                        item.wind.speed.high
-                                    } knots to the ${item.wind.direction.toLowerCase()}.`}
+                                {`${item.wind.speed.low} - 
+                                    ${item.wind.speed.high} kt.`}
+                                <br />
+                                <span className="row">
+                                    <DirectionArrows
+                                        direction={item.wind.direction}
+                                    />
+                                    {item.wind.direction}
+                                </span>
                             </span>
                         </div>
-                        <div className={`container ${item.waves.height.high >  maxWaveHeight ? 'alert' : ''}`}>
-                            <TiWaves size={iconSize} />
+                        <div
+                            className={`container ${
+                                item.waves.height.high > maxWaveHeight
+                                    ? "alert"
+                                    : ""
+                            }`}
+                        >
+                            <FaWater size={iconSize} />
                             <span className="text-container">
-                                {`Waves 
-                                        ${item.waves.height.low} to
-                                        ${item.waves.height.high} feet.`}
+                                {`${item.waves.height.low} - ${
+                                    item.waves.height.high
+                                } ft.`}
                             </span>
                             <span className="alert-message">
                                 Avoid due to wave height.

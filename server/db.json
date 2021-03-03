@@ -81940,6 +81940,1645 @@
           }
         }
       ]
+    },
+    {
+      "date": 1614758400238,
+      "data": [
+        {
+          "time": "OVERNIGHT",
+          "blurb": " Southwest winds 15 to 25 knots. Waves in ice free areas 2 to 4 feet building to 4 to 7 feet. Waves in ice free areas occasionally around 9 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "25"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "WEDNESDAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves 4 to 7 feet subsiding to 1 to 3 feet. Waves occasionally around 9 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "4",
+              "high": "7"
+            }
+          }
+        },
+        {
+          "time": "WEDNESDAY NIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614760200243,
+      "data": [
+        {
+          "time": "OVERNIGHT",
+          "blurb": " Southwest winds 15 to 25 knots. Waves in ice free areas 2 to 4 feet building to 4 to 7 feet. Waves in ice free areas occasionally around 9 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "25"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "WEDNESDAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves 4 to 7 feet subsiding to 1 to 3 feet. Waves occasionally around 9 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "4",
+              "high": "7"
+            }
+          }
+        },
+        {
+          "time": "WEDNESDAY NIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614762000244,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614763800276,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614765600302,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614767400388,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614769200403,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614771000262,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614772800259,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614774600249,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614776400204,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614778200269,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614780000368,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 6 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614781800241,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 5 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "date": 1614783600216,
+      "data": [
+        {
+          "time": "TODAY",
+          "blurb": " Southwest winds 15 to 20 knots becoming west 10 to 15 knots. Waves in ice free areas 3 to 5 feet subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "Southwest",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "in",
+              "high": "free"
+            }
+          }
+        },
+        {
+          "time": "TONIGHT",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of flurries from late evening on. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY",
+          "blurb": " Northwest winds 10 to 15 knots increasing to 15 to 20 knots. A chance of flurries. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "THURSDAY NIGHT",
+          "blurb": " Northwest winds 10 to 15 knots. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "10",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "FRIDAY",
+          "blurb": " West winds 15 to 20 knots becoming northwest 10 to 15 knots. A chance of snow showers Friday night. Waves 1 to 3 feet building to 2 to 4 feet, then subsiding to 1 to 3 feet.",
+          "wind": {
+            "direction": "West",
+            "speed": {
+              "low": "15",
+              "high": "20"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        },
+        {
+          "time": "SATURDAY",
+          "blurb": " Northwest winds 5 to 15 knots. A chance of snow showers during the day. Waves 1 to 3 feet.",
+          "wind": {
+            "direction": "Northwest",
+            "speed": {
+              "low": "5",
+              "high": "15"
+            }
+          },
+          "waves": {
+            "height": {
+              "low": "1",
+              "high": "3"
+            }
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,33 +1,42 @@
 import React from "react";
 import styled from "styled-components";
-import Waves from './Waves'
+import Waves from "./Waves";
 import LakeErie from "../icons/Lake_Erie.svg";
 
 const StyledWrapper = styled.div`
-    display: inline-block;
+    display: block;
     width: 100%;
     min-height: 30vh;
-    background: #F5F6F7;
-    background-image: ${`url(${LakeErie})`};
-    background-repeat: no-repeat;
-    background-position: center;
+    background: #f5f6f7;
     z-index: 1;
     position: relative;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255, 254, 244, 1) 0%,
+        rgba(255, 254, 244, 1) 35%,
+        #b7e8eb 100%
+    );
+    overflow: hidden;
 `;
 
 const StyledLogo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1rem;
 
     .headline {
+        display: inline;
         font-size: 10rem;
         margin: 0;
         background: -webkit-linear-gradient(45deg, #0093e9, #80d0c7);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .logo {
+        height: 10rem;
     }
 
     .byline {
@@ -40,7 +49,6 @@ const Header = () => (
     <StyledWrapper>
         <StyledLogo>
             <h1 className="headline">Lake Erie</h1>
-            <h2 className="byline"></h2>
         </StyledLogo>
         <Waves />
     </StyledWrapper>

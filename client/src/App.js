@@ -18,7 +18,7 @@ function App() {
         <>
             {waveWindData? (
                 <Layout>
-                    <Forecast bundle={waveWindData} />
+                    <Forecast bundle={waveWindData} iconSize="5rem" maxWaveHeight={3}/>
                 </Layout>
             ) : (
                 <div>Loading</div>
