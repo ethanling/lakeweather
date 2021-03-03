@@ -10,50 +10,44 @@ const StyledCardContainer = styled.div`
     flex-direction: column;
 
     .card {
+        background: white;
         margin: 1rem 0 1rem 0;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 7px;
     }
 
     .title {
         display: flex;
         align-items: center;
-        font-size: 4rem;
+        margin: -1px -1px 0 -1px;
+        font-size: 1.2rem;
         font-family: "Inter", mono;
-        font-weight: 800;
-        color: #fff788;
-        margin: 1rem;
-        padding-left: 1rem;
+        font-weight: 600;
+        padding: 1rem;
+        background-color: #0093e9;
+        background-image: linear-gradient(45deg, #0093e9 0%, #80d0c7 100%);
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 7px 7px 0 0;
     }
 
     .content {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 1rem;
-        color: white;
-        margin: 0;
     }
 
     .container {
+        flex: 1;
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 1rem;
     }
 
     .text-container {
-        margin-left: 1.4rem;
-        font-size: 2rem;
-        font-weight: 300;
-        flex: 1;
-    }
-
-    .alert {
-        background: rgba(255, 0, 0, 0.5);
-        border-radius: 1rem;
-        transition: all .2s ease; 
-    }
-
-    .alert:hover {
-        background: rgba(255, 0, 0, .8);
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+        font-weight: 600;
     }
 
     .timestamp {
@@ -62,38 +56,38 @@ const StyledCardContainer = styled.div`
     }
 `;
 
-const Forecast = ({ bundle }) => {
-    console.log(bundle);
-    const lastUpdated = useDate(bundle.date);
+const Forecast = (weather) => {
+    console.log(weather.bundle);
+    const lastUpdated = useDate(weather.bundle.date);
 
     const iconSize = "2rem";
-    const maxWaveHeight = 3; // in feet
 
     return (
         <StyledCardContainer>
-            {bundle.data.map((item, i) => (
+            {weather.bundle.data.map((item, i) => (
                 <div className="card" key={i}>
                     <h1 className="title">{item.time}</h1>
                     <div className="content">
                         <div className="container">
                             <TiWeatherWindyCloudy size={iconSize} />
-                            <span className="text-container">
-                                {`Winds from ${item.wind.speed.low} to
+                            <div className="text-container">
+                                <span>
+                                    {`Winds from ${item.wind.speed.low} to
                                     ${
                                         item.wind.speed.high
                                     } knots to the ${item.wind.direction.toLowerCase()}.`}
-                            </span>
+                                </span>
+                            </div>
                         </div>
-                        <div className={`container ${item.waves.height.high >  maxWaveHeight ? 'alert' : ''}`}>
+                        <div className="container">
                             <TiWaves size={iconSize} />
-                            <span className="text-container">
-                                {`Waves 
-                                        ${item.waves.height.low} to
-                                        ${item.waves.height.high} feet.`}
-                            </span>
-                            <span className="alert-message">
-                                Avoid due to wave height.
-                            </span>
+                            <div className="text-container">
+                                <span>
+                                    {`Waves 
+                                    ${item.waves.height.low} to
+                                    ${item.waves.height.high} feet.`}
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>

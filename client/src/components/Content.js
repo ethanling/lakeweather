@@ -1,18 +1,23 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const StyledContent = styled.div`
-	width: 90vw;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-`
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+
+    .container {
+        width: 90vw;
+        max-width: 980px;
+    }
+`;
 
 const Content = ({ children }) => (
-	<StyledContent>
-		{ children }
-	</StyledContent>
-)
-
+    <StyledContent>
+        <div className="container">{children}</div>
+    </StyledContent>
+);
 
 export default Content;
