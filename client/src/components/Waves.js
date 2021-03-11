@@ -1,8 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import Wave from "../icons/wave.svg";
+import React, { useState, useEffect } from "react";
+import styled, { useTheme } from "styled-components";
+import LightWave from "../icons/lightwave.svg";
+import DarkWave from "../icons/darkwave.svg";
 
-const StyledLoader = styled.div`
+const StyledAnimation = styled.div`
     max-width: 100vw;
     background: #f5f6f7;
     overflow: hidden;
@@ -11,15 +12,14 @@ const StyledLoader = styled.div`
     .ocean {
         height: 5%;
         width: 100%;
-        background: #0093e9;
+        background: ${(props) => props.theme.colors.header.wave.ocean};
         position: absolute;
         bottom: 0;
         left: 0;
     }
 
     .wave {
-        background: ${`url(${Wave})`}
-            repeat-x;
+        background: url(${props => props.background}) repeat-x;
         position: absolute;
         top: -198px;
         width: 6400px;
@@ -56,13 +56,21 @@ const StyledLoader = styled.div`
 `;
 
 const Waves = () => {
+    const [waveSvg, setWaveSvg] = useState()
+    const theme = useTheme();
+
+    useEffect(() => {
+        const svg = theme === "day" ? LightWave : DarkWave;
+        setWaveSvg(svg)
+    }, [])
+
     return (
-        <StyledLoader>
+        <StyledAnimation background={waveSvg}>
             <div className="ocean">
                 <div className="wave" />
                 <div className="wave" />
             </div>
-        </StyledLoader>
+        </StyledAnimation>
     );
 };
 
