@@ -1,17 +1,39 @@
 import styled from "styled-components";
+import LakeErie from "../icons/Lake_Erie.svg";
+
+export const StyledStripe = styled.div`
+    background: ${props => props.theme.colors.footer.link.color};
+    height: .5em;
+    width: 100vw;
+    position: absolute;
+    top: 0;;
+`
+
+export const StyledBackground = styled.div`
+    background: linear-gradient(
+        0deg,
+        ${props => props.theme.colors.footer.background.light} 70%,
+        ${props => props.theme.colors.footer.background.dark} 100%
+    );
+    display: none;
+`;
 
 export const StyledFooter = styled.div`
-    margin-top: -1px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     position: relative;
-    font-size: 1em;
-    background: ${props => props.theme.colors.footer.background};
-    padding: 3em 1em 1em 1em;
-    color: ${props => props.theme.colors.footer.text};
+    padding-top: 2em;
+    font-size: 1.2em;
+    background-image: ${`url(${LakeErie})`};
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    color: ${(props) => props.theme.colors.footer.text};
 
     a {
-        color: ${props => props.theme.colors.footer.link.color};
+        color: ${(props) => props.theme.colors.footer.link.color};
         text-decoration: none;
     }
 
@@ -19,7 +41,7 @@ export const StyledFooter = styled.div`
     li {
         padding: 0;
         margin: 0;
-        font-size: .8em;
+        font-size: 0.8em;
     }
 
     li {
@@ -28,21 +50,13 @@ export const StyledFooter = styled.div`
     }
 
     img {
-       max-width: 10vw; 
-    }
-
-    .content {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 2em;
+        max-width: 10vw;
     }
 
     .copyright {
         margin: 0 auto;
-        font-size: .65em;
+        margin-top: 2em;
+        font-size: 0.65em;
 
         span {
             margin: 0 0.5em 0 0.5em;
@@ -55,10 +69,8 @@ export const StyledFooter = styled.div`
 
     .heading {
         font-size: 1em;
-        font-weight: 600;
+        font-weight: 900;
         margin: 0;
         padding: 0;
     }
-
-
 `;

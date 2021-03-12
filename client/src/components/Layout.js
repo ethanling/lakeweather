@@ -21,6 +21,8 @@ const StyledWrapper = styled.div`
     );
     padding: 0;
     margin: 0;
+    z-index: 2;
+    box-shadow: 0 0px 20px 0 #000;
 `;
 
 const Layout = ({ children }) => (

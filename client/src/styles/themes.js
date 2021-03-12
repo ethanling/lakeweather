@@ -2,7 +2,7 @@ export const day = {
     colors: {
         main: "#f5f6f7;",
         header: {
-            current: "#6e6e6e",
+            current: "#020024",
             title: {
                 light: "#80d0c7",
                 dark: "#0093e9",
@@ -19,7 +19,16 @@ export const day = {
             },
         },
         body: {
-            title: "#fff788",
+            old: "#fff788",
+            title: {
+                color: "#FFFEF4",
+                background: "#e96e50",
+                underline: "#753526",
+            },
+            card: {
+                color: "#999",
+                underline: "#999",
+            },
             text: "#fefef7",
             background: {
                 light: "#0093E9",
@@ -27,32 +36,16 @@ export const day = {
             },
         },
         footer: {
-            text: "#fefef7",
-            background: "#020024",
+            text: "#0a0a0a",
+            background: {
+                light: "#fefef7",
+                dark: "#0093E9",
+            },
             link: {
-                color: '#fff788',
+                color: "#e96e50",
             },
         },
     },
 };
 
-export const night = {
-    colors: {
-        text: {
-            primary: "",
-            secondary: "",
-        },
-        header: {
-            current: "",
-            title: {
-                light: "",
-                dark: "",
-            },
-            byline: "",
-            background: {
-                light: "",
-                dark: "#",
-            },
-        },
-    },
-};
+export const night = {};
