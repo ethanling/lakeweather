@@ -131,7 +131,7 @@ async function runCron() {
         })
         .write();
 
-    console.log("Cron job complete.");
+    console.log("✅ Cron job complete.");
 }
 
 module.exports = {
