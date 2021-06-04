@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lakeweather/static/css/main.836a4bf4.chunk.css",
+    "main.js": "/lakeweather/static/js/main.c2f585d1.chunk.js",
+    "main.js.map": "/lakeweather/static/js/main.c2f585d1.chunk.js.map",
+    "runtime-main.js": "/lakeweather/static/js/runtime-main.29d2e465.js",
+    "runtime-main.js.map": "/lakeweather/static/js/runtime-main.29d2e465.js.map",
+    "static/js/2.48b16bc5.chunk.js": "/lakeweather/static/js/2.48b16bc5.chunk.js",
+    "static/js/2.48b16bc5.chunk.js.map": "/lakeweather/static/js/2.48b16bc5.chunk.js.map",
+    "index.html": "/lakeweather/index.html",
+    "static/css/main.836a4bf4.chunk.css.map": "/lakeweather/static/css/main.836a4bf4.chunk.css.map",
+    "static/js/2.48b16bc5.chunk.js.LICENSE.txt": "/lakeweather/static/js/2.48b16bc5.chunk.js.LICENSE.txt",
+    "static/media/Lake_Erie.6c4f4521.svg": "/lakeweather/static/media/Lake_Erie.6c4f4521.svg",
+    "static/media/darkwave.a86043e8.svg": "/lakeweather/static/media/darkwave.a86043e8.svg",
+    "static/media/lightwave.a86043e8.svg": "/lakeweather/static/media/lightwave.a86043e8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29d2e465.js",
+    "static/js/2.48b16bc5.chunk.js",
+    "static/css/main.836a4bf4.chunk.css",
+    "static/js/main.c2f585d1.chunk.js"
+  ]
+}
