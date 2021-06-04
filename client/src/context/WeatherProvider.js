@@ -5,12 +5,12 @@ export const WeatherContext = createContext();
 const WeatherProvider = ({ children }) => {
     const [weather, setWeather] = useState(null);
 
-    async function fetchWeatherData() {
-        const data = await fetch("http://localhost:3333/data");
-        setWeather(await data.json());
-    }
-
     useEffect(() => {
+        async function fetchWeatherData() {
+            const data = await fetch("http://localhost:3333/data");
+            setWeather(await data.json());
+        }
+
         fetchWeatherData();
     }, []);
 
