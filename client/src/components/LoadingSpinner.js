@@ -8,7 +8,7 @@ const StyledLoader = styled.div`
 
     div {
         position: absolute;
-        border: 4px solid #454ade;
+        border: 4px solid #;
         border-radius: 50%;
         animation: ripple-loader 1s ease-out infinite;
     }
